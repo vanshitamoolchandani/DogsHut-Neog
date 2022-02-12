@@ -1,0 +1,58 @@
+@import url('https://root-ui.netlify.app/styles/styles-global/root.css');
+@import url('/root.css');
+
+.nav-container {
+    background-color: var(--primary-color);
+}
+
+.nav-content {
+    padding: 0 1rem;
+}
+
+.nav-logo-txt {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-icon {
+    color: var(--white-color);
+    margin: 1rem 1.5rem;
+}
+
+.input {
+    border-radius: 1rem;
+    width: 30rem;
+}
+
+.img-container {
+    margin: 2rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--asset-color);
+    border-radius: 2rem;
+}
+
+.img-responsive {
+    width: 100%;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.heading {
+    font-size: 5rem;
+    text-align: center;
+    font-stretch: expanded;
+    align-self: center;
+}
+
+.sub-heading {
+    margin: 4rem auto;
+    width: 60%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+}
+
+.sub-heading span {
+    background: var(--background-color);
+    padding: 0 10px;
+}
