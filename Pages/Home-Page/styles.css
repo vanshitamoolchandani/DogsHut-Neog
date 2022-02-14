@@ -1,8 +1,15 @@
 @import url('https://root-ui.netlify.app/styles/styles-global/root.css');
 @import url('/root.css');
 
+
+
 .nav-container {
     background-color: var(--primary-color);
+}
+
+.nav-logo{
+    padding: 0;
+    
 }
 
 .nav-content {
@@ -11,6 +18,16 @@
 
 .nav-logo-txt {
     font-family: var(--font-family-1)
+}
+
+
+.nav-child-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav-child-flex h6{
+    text-align: center;
 }
 
 .btn-link{
@@ -53,6 +70,10 @@
     max-width:100%;
 }
 
+.img-ctg{
+    height: 13rem;
+}
+
 .heading {
     font-size: 5rem;
     text-align: center;
@@ -62,7 +83,7 @@
 
 .sub-heading {
     margin: 4rem auto;
-    width: 60%;
+    width: 80%;
     text-align: center;
     border-bottom: 1px solid #000;
     line-height: 0.1em;
@@ -116,19 +137,19 @@
     grid-template-columns: auto auto auto auto;   
     gap: 1rem;
     text-align: center;
-    margin: 0 8rem ;
+    margin: 0 4rem ;
 }
 
 .sec2-card{
-    height: 13rem;
+    height: 15rem;
 }
 
 .card-secondary{
-    background-color: var(--secondary-light-color);
+    background-color: var(--secondary-vlight-color);
 }
 
 .card-primary{
-    background-color: var(--primary-light-color);
+    background-color: var(--primary-vlight-color);
 }
 
 .card-txt-footer{
@@ -146,6 +167,14 @@
     font-size: var(--sub-heading-size);
     color: var(--black-matte-color);
 
+}
+
+/* Adoption */
+
+.img-grid{
+    height: 8rem;
+    /* display: grid; */
+    column-count: 10;
 }
 
 footer{

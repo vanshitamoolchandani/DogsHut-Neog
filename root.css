@@ -2,9 +2,10 @@
 :root {
     --primary-color: #43AA8B  !important;
     --primary-light-color: #7bc4ae  !important;
-    --primary-vlight-color:  !important;
+    --primary-vlight-color: #def0eb;
     --secondary-color:#EF3054 !important;
     --secondary-light-color: #fbc5cf !important;
+    --secondary-vlight-color: #fde8ec !important;
     --asset-color: #F5D0C5;
     --black-color: #050609;
     --font-family-1: 'Times New Roman', Times, serif;
