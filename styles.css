@@ -1,4 +1,3 @@
-@import url('https://root-ui.netlify.app/styles/styles-global/root.css');
 @import url('/root.css');
 
 body{
@@ -152,7 +151,6 @@ body{
 .img-ctg{
     height: 10rem;
 }
-
 
 .ctg-layout .btn-link{
     left: 3rem;
