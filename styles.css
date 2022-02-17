@@ -135,8 +135,10 @@ body{
 /* Featured Categories */
 
 .ctg-layout .card-basic{
-    height: 15rem;
-    width: 17rem;
+    height: 13rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: row;
 }
 
 .card-secondary{
@@ -148,12 +150,12 @@ body{
 }
 
 .img-ctg{
-    height: 12rem;
+    height: 10rem;
 }
 
 
 .ctg-layout .btn-link{
-    left: 71px;
+    left: 3rem;
     bottom: 3%;
     position: absolute;
     font-size: var(--sub-heading-size);
