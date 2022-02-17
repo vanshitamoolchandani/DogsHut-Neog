@@ -1,34 +1,6 @@
 @import url('/root.css');
 
-body{
-    margin: 0;
-}
 
-.nav-container {
-    margin: 0;
-    background-color: var(--primary-color);
-}
-.nav-logo-txt {
-    font-family: var(--font-family-1);
-}
-
-.btn-icon {
-    color: var(--white-color);
-    margin: 0.5rem 1rem;
-}
-.badge-icon{
-    font-size: 1.75rem;
-}
-.badge-icon-secondary{
-    left: 1.25rem;
-
-}
-
-.input {
-    border-radius: 1rem;
-    width: 30rem;
-    border: 5px solid var(--primary-color);
-}
 
 .img-container {
     margin: 2rem 1rem;
@@ -196,46 +168,3 @@ body{
 
 }
 
-/* Footer */
-
-footer{
-    background-color: var(--black-matte-color);
-    height: 20rem;
-    width: 100%;
-    margin-bottom: 0;
-    margin-top: 5rem;
-    text-align: center;
-    color: var(--asset-color);
-    font-family: var(--font-family-2);
-}
-footer h4{
-    padding-top: 1rem;
-}
-.social{
-    color: var(--white-color);
-    font-size: 3rem;
-    padding: 1rem;
-}
-.list-type-inline{
-    padding: 0;  
-}
-.list-type-none{
-    list-style: none;
-}
-.footer-details{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-.footer-details li{
-    font-size: small;
-}
-.vertical-line{
-    height: 5rem;
-    border: 1px solid var(--asset-color);
-}
-.list-heading{
-    font-weight: 600;
-    padding: 10px 0;
-}
