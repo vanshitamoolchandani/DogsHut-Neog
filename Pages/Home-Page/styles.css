@@ -1,47 +1,34 @@
 @import url('https://root-ui.netlify.app/styles/styles-global/root.css');
 @import url('/root.css');
 
-
+body{
+    margin: 0;
+}
 
 .nav-container {
+    margin: 0;
     background-color: var(--primary-color);
 }
-
-.nav-logo{
-    padding: 0;
-    
-}
-
-.nav-content {
-    padding: 0 1rem;
-}
-
 .nav-logo-txt {
-    font-family: var(--font-family-1)
-}
-
-
-.nav-child-flex{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.nav-child-flex h6{
-    text-align: center;
-}
-
-.btn-link{
-    text-decoration: none;
+    font-family: var(--font-family-1);
 }
 
 .btn-icon {
     color: var(--white-color);
-    margin: 1rem 1.5rem;
+    margin: 0.5rem 1rem;
+}
+.badge-icon{
+    font-size: 1.75rem;
+}
+.badge-icon-secondary{
+    left: 1.25rem;
+
 }
 
 .input {
     border-radius: 1rem;
     width: 30rem;
+    border: 5px solid var(--primary-color);
 }
 
 .img-container {
@@ -51,7 +38,7 @@
     "sec-header sec-header"
     "sec sec-img";
     grid-template-columns: 1fr 1fr;
-    background-color: var(--asset-color);
+    background-color: var(--secondary-vlight-color);
     grid-area: sec;
 }
 .badge-upper{
@@ -71,15 +58,17 @@
     
 }
 
-.img-ctg{
-    height: 13rem;
-}
 
 .heading {
-    font-size: 5rem;
+    font-size: 4.5rem;
+    font-weight: 400;
     text-align: center;
     font-stretch: expanded;
     align-self: center;
+    /* padding: 0 2px; */
+}
+.heading span{
+    color: var(--secondary-color);
 }
 
 .sub-heading {
@@ -107,7 +96,9 @@
     color: var(--secondary-color);
 }
 
-/* section 2 */
+/* Section 2 */
+
+/* Explore Dog Breeds */
 .breed-layout{
     display: flex;
     flex-direction: row;
@@ -122,7 +113,7 @@
     font-family: var(--font-family-1);
 }
 
-.card-basic{
+.breed-layout .card-basic{
     height: 16rem;
     width: 18rem; 
 }
@@ -141,8 +132,11 @@
     margin: 0 4rem ;
 }
 
-.sec2-card{
+/* Featured Categories */
+
+.ctg-layout .card-basic{
     height: 15rem;
+    width: 17rem;
 }
 
 .card-secondary{
@@ -153,13 +147,10 @@
     background-color: var(--primary-vlight-color);
 }
 
-.card-txt-footer{
-        transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    border: none;
-    font-weight: var(--content-weight);
+.img-ctg{
+    height: 12rem;
 }
+
 
 .ctg-layout .btn-link{
     left: 71px;
@@ -173,12 +164,15 @@
 /* Adoption */
 
 .adoption-center{
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .adoption-layout{
-    
+    width:30.5rem;
+    padding: 0;
+    margin: 0rem 3rem;
 }
 
 .img-grid{
@@ -201,6 +195,9 @@
     flex-direction: row;
 
 }
+
+/* Footer */
+
 footer{
     background-color: var(--black-matte-color);
     height: 20rem;
@@ -219,8 +216,26 @@ footer h4{
     font-size: 3rem;
     padding: 1rem;
 }
-
-.list-inline{
-    display: inline;
-    
-    }
+.list-type-inline{
+    padding: 0;  
+}
+.list-type-none{
+    list-style: none;
+}
+.footer-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-details li{
+    font-size: small;
+}
+.vertical-line{
+    height: 5rem;
+    border: 1px solid var(--asset-color);
+}
+.list-heading{
+    font-weight: 600;
+    padding: 10px 0;
+}
