@@ -1,0 +1,241 @@
+@import url('/root.css');
+
+body{
+    margin: 0;
+}
+
+.nav-container {
+    margin: 0;
+    background-color: var(--primary-color);
+}
+.nav-logo-txt {
+    font-family: var(--font-family-1);
+}
+
+.btn-icon {
+    color: var(--white-color);
+    margin: 0.5rem 1rem;
+}
+.badge-icon{
+    font-size: 1.75rem;
+}
+.badge-icon-secondary{
+    left: 1.25rem;
+
+}
+
+.input {
+    border-radius: 1rem;
+    width: 30rem;
+    border: 5px solid var(--primary-color);
+}
+
+.img-container {
+    margin: 2rem 1rem;
+    display: grid;
+    grid-template-areas: 
+    "sec-header sec-header"
+    "sec sec-img";
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--secondary-vlight-color);
+    grid-area: sec;
+}
+.badge-upper{
+    grid-area: sec-header;
+    margin: 0;
+    padding: 1rem 0rem;
+    font-size: 1rem;
+    font-family: var(--font-family-2)
+}
+
+
+.img-responsive {
+    width: 100%;
+    grid-area: sec-img;
+    max-height:100%; 
+    max-width:100%;
+    
+}
+
+
+.heading {
+    font-size: 4.5rem;
+    font-weight: 400;
+    text-align: center;
+    font-stretch: expanded;
+    align-self: center;
+    /* padding: 0 2px; */
+}
+.heading span{
+    color: var(--secondary-color);
+}
+
+.sub-heading {
+    margin: 4rem auto;
+    width: 80%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    font-size: var(--heading-size);
+}
+
+.sub-heading span {
+    background: var(--background-color);
+    padding: 0 10px;
+}
+
+
+.sub-heading .btn-link{
+    font-weight: var(--content-weight);
+    font-size: var(--content-size);
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+}
+.sub-heading .btn-link:hover{
+    color: var(--secondary-color);
+}
+
+/* Section 2 */
+
+/* Explore Dog Breeds */
+.breed-layout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 1rem;
+}
+
+.breed-layout .btn-link{
+    text-decoration: none;
+    font-size: 2rem;
+    color: var(--white-color);
+    font-family: var(--font-family-1);
+}
+
+.breed-layout .card-basic{
+    height: 16rem;
+    width: 18rem; 
+}
+
+.centered{
+    font-size: 2rem;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+.ctg-layout{
+    display: grid;
+    grid-template-columns: auto auto auto auto;   
+    gap: 1rem;
+    text-align: center;
+    margin: 0 4rem ;
+}
+
+/* Featured Categories */
+
+.ctg-layout .card-basic{
+    height: 13rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-secondary{
+    background-color: var(--secondary-vlight-color);
+}
+
+.card-primary{
+    background-color: var(--primary-vlight-color);
+}
+
+.img-ctg{
+    height: 10rem;
+}
+
+.ctg-layout .btn-link{
+    left: 3rem;
+    bottom: 3%;
+    position: absolute;
+    font-size: var(--sub-heading-size);
+    color: var(--black-matte-color);
+
+}
+
+/* Adoption */
+
+.adoption-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.adoption-layout{
+    width:30.5rem;
+    padding: 0;
+    margin: 0rem 3rem;
+}
+
+.img-grid{
+    height: 6.5rem;
+    width: 10rem;
+    column-count: 10;
+    object-fit: cover;
+}
+
+.img-grid-last{
+    height: 6.5rem;
+    width: 10rem;
+    background-color: var(--primary-color);
+    object-fit: fill;
+}
+
+.ad-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* Footer */
+
+footer{
+    background-color: var(--black-matte-color);
+    height: 20rem;
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 5rem;
+    text-align: center;
+    color: var(--asset-color);
+    font-family: var(--font-family-2);
+}
+footer h4{
+    padding-top: 1rem;
+}
+.social{
+    color: var(--white-color);
+    font-size: 3rem;
+    padding: 1rem;
+}
+.list-type-inline{
+    padding: 0;  
+}
+.list-type-none{
+    list-style: none;
+}
+.footer-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-details li{
+    font-size: small;
+}
+.vertical-line{
+    height: 5rem;
+    border: 1px solid var(--asset-color);
+}
+.list-heading{
+    font-weight: 600;
+    padding: 10px 0;
+}
