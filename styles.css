@@ -67,6 +67,10 @@
     color: var(--secondary-color);
 }
 
+.btn-icon{
+    cursor: pointer;
+}
+
 /* Section 2 */
 
 /* Explore Dog Breeds */
