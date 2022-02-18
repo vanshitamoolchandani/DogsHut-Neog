@@ -9,7 +9,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 22rem;
-    /* grid-auto-flow: column; */
     justify-items: center;
     align-items: center;
     gap: 1rem;
