@@ -2,11 +2,10 @@
 
 
 
-.main-sec{
+.main-sec-product{
     display: grid;
     grid-template-columns: 2fr 7fr;
     grid-template-areas: "side main";
-
 }
 .sidebar{
     font-family: 'Comfortaa';

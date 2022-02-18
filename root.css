@@ -8,7 +8,7 @@
     --secondary-color:#EF3054 ;
     --secondary-light-color: #fbc5cf ;
     --secondary-vlight-color: #fde8ec ;
-    --asset-color: #F5D0C5;
+    --accent-color: #F5D0C5;
     --black-color: #050609;
     --font-family-1: 'Times New Roman', Times, serif;
     --font-family-2: 'Courier New', Courier, monospace;
@@ -55,7 +55,7 @@ footer{
     margin-bottom: 0;
     margin-top: 5rem;
     text-align: center;
-    color: var(--asset-color);
+    color: var(--accent-color);
     font-family: var(--font-family-2);
 }
 footer h4{
