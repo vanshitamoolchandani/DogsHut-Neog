@@ -5,11 +5,6 @@
 .cart{
     margin: 2rem 0 0 4rem;
 }
-.flex-row-between{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 .card-horiz{
     width: 43rem;
     height:12rem;
