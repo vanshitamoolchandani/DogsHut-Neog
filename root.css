@@ -8,7 +8,7 @@
     --secondary-color:#EF3054 ;
     --secondary-light-color: #fbc5cf ;
     --secondary-vlight-color: #fde8ec ;
-    --asset-color: #F5D0C5;
+    --accent-color: #F5D0C5;
     --black-color: #050609;
     --font-family-1: 'Times New Roman', Times, serif;
     --font-family-2: 'Courier New', Courier, monospace;
@@ -28,7 +28,12 @@ body{
 .nav-logo-txt {
     font-family: var(--font-family-1);
 }
-
+.nav-logo{
+    margin: auto auto auto 2rem;
+}
+.nav-child{
+    align-items: center;
+}
 .btn-icon {
     color: var(--white-color);
     margin: 0.5rem 1rem;
@@ -40,10 +45,36 @@ body{
     left: 1.25rem;
 
 }
+.search-icon,
+.input{
+    background-color: var(--secondary-vlight-color);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.search-icon{
+    color: #050609;
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+ 
+}
 .input {
-    border-radius: 1rem;
-    width: 30rem;
-    border: 5px solid var(--primary-color);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 15rem;
+    height: 2rem;
+    margin: 0;
+    padding: 0 1rem;
+
+}
+
+input:focus{
+    outline: none;
 }
 
 /* Footer */
@@ -55,7 +86,7 @@ footer{
     margin-bottom: 0;
     margin-top: 5rem;
     text-align: center;
-    color: var(--asset-color);
+    color: var(--accent-color);
     font-family: var(--font-family-2);
 }
 footer h4{
@@ -65,6 +96,9 @@ footer h4{
     color: var(--white-color);
     font-size: 3rem;
     padding: 1rem;
+}
+.link{
+    text-decoration: none;
 }
 .list-type-inline{
     padding: 0;  
