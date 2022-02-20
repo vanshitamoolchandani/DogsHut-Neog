@@ -16,8 +16,8 @@
     margin: 2rem 2rem;
 }
 .main-wishlist .btn-standard-container{
+
     flex-direction: column;
-    display: inline-flex;
 }
 .main-wishlist .btn-rect{
     width: 15rem;
