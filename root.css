@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600;700&family=Yellowtail&display=swap');
 @import url('https://root-ui.netlify.app/styles/styles-global/root.css');
-
+ @import url('/styles.css');
+/* @import url('/Pages/Cart/styles.css');
+@import url('/Pages/Login/styles.css');
+@import url('/Pages/Product-Listing-Page/styles.css');
+@import url('/Pages/Signup/styles.css');
+@import url('/Pages/Wishlist/styles.css');  */
 :root {
     --primary-color: #43AA8B  ;
     --primary-light-color: #7bc4ae  ;
@@ -12,10 +17,13 @@
     --black-color: #050609;
     --font-family-1: 'Times New Roman', Times, serif;
     --font-family-2: 'Courier New', Courier, monospace;
+    --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 body{
-    display: block;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     margin: 0;
 }
 
@@ -84,10 +92,11 @@ footer{
     height: 20rem;
     width: 100%;
     margin-bottom: 0;
-    margin-top: 5rem;
+    margin-top: auto;
     text-align: center;
     color: var(--accent-color);
     font-family: var(--font-family-2);
+    /* position: relative; */
 }
 footer h4{
     padding-top: 1rem;

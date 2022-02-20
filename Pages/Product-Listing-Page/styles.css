@@ -55,8 +55,9 @@
 .card-content-txt{
     margin: 5px;
 }
-.upper-badge{
+.card-basic .upper-badge{
     margin: 0 5px;
+    padding: 0;
 }
 .btn-container{
     display: flex;
@@ -64,7 +65,7 @@
     justify-content: center;
     align-content: center;
 }
-.btn-rect{
+.main-product-list .btn-rect{
     height: 2.5rem;
     margin: 3px 1rem;
     padding: 0.75rem 0.75rem;

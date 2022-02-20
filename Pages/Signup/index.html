@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/Pages/Login/styles.css" rel="styleSheet">
-    <title>Log In</title>
+    <link href="/Pages/Signup/styles.css" rel="styleSheet">
+    <title>Sign Up</title>
 </head>
 
 <body>
@@ -54,28 +54,41 @@
         </div>
     </nav>
 
-    <h2 class="sub-heading"><span>Welcome Back</span></h2>
-
-    <form class="form-login">
-        <div class="input-padding">
-            <label class="in-label">Email ID</label>
-            <input type="email" placeholder="email id" class="input">
-        </div>
-        <div class="input-padding">
-            <label class="in-label">Password</label>
-            <input type="password" placeholder="password" class="input">
-        </div>
+    <form class="form-signup">
         <div class="flex-row-between">
             <div>
-                <input type="checkbox" class="checkbox">
-                <label class="in-label">Remember Me</label>
+                <label class="in-label">First Name<span class="tu-danger">*</span></label>
+                <input type="text" placeholder="First Name" class="input">
             </div>
             <div>
-                <button class="btn-link btn-link-secondary">Forgot Your Password?</button>
+                <label class="in-label">Last Name<span class="tu-danger">*</span></label>
+                <input type="text" placeholder="Last Name" class="input">
             </div>
         </div>
-        <div class="btn-div">
-            <button class="btn-rect btn-std-primary">LogIn</button>
+        <div class="input-padding">
+            <label class="in-label">Email ID<span class="tu-danger">*</span></label>
+            <input type="email" placeholder="Email ID" class="input">
+        </div>
+        <div class="input-padding">
+            <label class="in-label">Password<span class="tu-danger">*</span></label>
+            <input type="password" placeholder="Password" class="input">
+        </div>
+        <div class="input-padding">
+            <label class="in-label">Confirm Password<span class="tu-danger">*</span></label>
+            <input type="password" placeholder="Confirm Password" class="input">
+        </div>
+        <div class="input-padding">
+                <input type= "checkbox" class="checkbox">
+            <label class="in-label">I accept all <a>Terms and Conditions</a><span class="tu-danger">*</span></label>
+        </div>
+        <button class="btn-rect btn-std-primary">Sign Up</button>
+        <div class="input-padding-up tu-center">
+            <label>
+                Already have an account?
+            </label>
+            <a href="/Pages/Login/index.html">
+                <button class="btn-link btn-link-secondary">Log In</button>
+            </a>
         </div>
     </form>
 
