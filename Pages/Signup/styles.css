@@ -1,0 +1,33 @@
+@import url('/root.css');
+
+.form-signup{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 24rem;
+    background-color: var(--white-color);
+    margin: 5rem auto;
+    vertical-align:middle;
+    padding: 1rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+.form-signup .input{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid var(--black-matte-color);
+    width: 92%;
+}
+.flex-row-between .input{
+    width: 10rem;
+}
+.btn-rect{
+    width: 100%;
+}
+.btn-link{
+    font-size: 1rem;
+}
+.input-padding-up{
+    padding-top: 8px;
+}

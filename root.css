@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600;700&family=Yellowtail&display=swap');
 @import url('https://root-ui.netlify.app/styles/styles-global/root.css');
-
+@import url('/styles.css');
+@import url('/Pages/Cart/styles.css');
+@import url('/Pages/Login/styles.css');
+@import url('/Pages/Product-Listing-Page/styles.css');
+@import url('/Pages/Signup/styles.css');
+@import url('/Pages/Wishlist/styles.css');
 :root {
     --primary-color: #43AA8B  ;
     --primary-light-color: #7bc4ae  ;
