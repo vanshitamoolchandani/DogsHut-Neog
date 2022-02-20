@@ -96,7 +96,6 @@ footer{
     text-align: center;
     color: var(--accent-color);
     font-family: var(--font-family-2);
-    /* position: relative; */
 }
 footer h4{
     padding-top: 1rem;
