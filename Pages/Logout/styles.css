@@ -1,0 +1,16 @@
+@import url(/root.css);
+
+.component-subheading{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5rem;
+}
+.container-child{
+    padding-bottom: 2rem;
+}
+.font-size{
+    font-size: var(--content-size);
+}
