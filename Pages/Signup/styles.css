@@ -1,5 +1,6 @@
 @import url('/root.css');
 
+
 .form-signup{
     position: relative;
     display: flex;
@@ -10,8 +11,11 @@
     margin: 5rem auto;
     vertical-align:middle;
     padding: 1rem 2rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: var(--box-shadow);
     border-radius: 10px;
+}
+.input-padding{
+    padding: 0.5rem 0;
 }
 .form-signup .input{
     background-color: transparent;

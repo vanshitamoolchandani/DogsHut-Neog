@@ -2,8 +2,14 @@
 @import url('/styles.css');
 @import url('/Pages/Product-Listing-Page/styles.css');
 
+
+.nav-container .btn-std-secondary{
+    width:6rem;
+    height: 2rem;
+}
 .cart{
     margin: 2rem 0 0 4rem;
+    
 }
 .card-horiz{
     width: 43rem;
@@ -52,6 +58,9 @@
     width: 3rem;
     margin: 0 1rem;
 }
+.cart .btn-rect{
+    height: 2.5rem;
+}
 .btn-out-accent{
     background-color: var(--accent-color);
 }
@@ -61,7 +70,7 @@
     background-color: var(--accent-color);
     margin: 2rem;
     padding: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: var(--box-shadow);
 }
 
 .billing .btn-rect{
@@ -86,6 +95,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
+    margin-bottom: 2rem;
 }
 .upper-badge{
     padding: 0;

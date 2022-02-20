@@ -2,6 +2,9 @@
 @import url('/styles.css');
 @import url('/Pages/Product-Listing-Page/styles.css');
 
+.main-wishlist .card-basic{
+    height: 21rem;
+}
 .component-heading{
     text-align: center;
 }
@@ -12,14 +15,12 @@
     justify-items: center;
     align-items: center;
     gap: 1rem;
-    margin: 1rem 2rem;
+    margin: 2rem 2rem;
 }
 .main-wishlist .btn-standard-container{
-    display: inline-flex;
     flex-direction: column;
-
 }
-.btn-rect{
+.main-wishlist .btn-rect{
     width: 15rem;
     height: 2.1rem;
 }
