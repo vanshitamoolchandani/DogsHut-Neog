@@ -9,7 +9,7 @@
 
 <br>
 
-#### Components
+#### Pages
 * [Home Page](https://dogs-hut.netlify.app/)
 * [Product Page](https://dogs-hut.netlify.app/pages/product-listing-page/)
 * [Wishlist](https://dogs-hut.netlify.app/pages/wishlist/)
