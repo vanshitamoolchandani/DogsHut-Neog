@@ -4,7 +4,7 @@
 
 # Dogs Hut
 
-### Best place for your pet essentials.
+### Best place for your pet essentials. We houses everything for your pet you can possibly imagine, from dog food to his health supplies. In addition to our product offerings, we also provide information about dogs through our knowledge center and breed selection tool.
 
 
 <br>
