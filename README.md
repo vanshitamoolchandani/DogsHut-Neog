@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="images/spa-solid.png" width="100" height="100" alt="Logo"/>
+  <img src="assets/paw-solid.png" width="100" height="100" alt="Logo"/>
 </p>
 
 # Dogs Hut
 
-### Best place for your pet essentials
+### Best place for your pet essentials.
 
 
 <br>
